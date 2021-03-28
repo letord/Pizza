@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PizzaIllico.Mobile.Pages.ConnexionPage">
+    <ContentPage.Content>
+        <StackLayout>
+            <Entry x:Name="login" Placeholder="Email" />
+            <Entry x:Name="password" IsPassword="True" Placeholder="Mot de passe" />
+            <Button Text="Se connecter" Clicked="OnClickedConnectionButton" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
